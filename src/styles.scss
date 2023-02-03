@@ -90,3 +90,13 @@ table th {
 .text-center {
   text-align: center;
 }
+
+@media(max-width: 500px) {
+  body {
+    font-size: 0.8rem;
+  }
+
+  .container {
+    padding: 0 .5rem;
+  }
+}
